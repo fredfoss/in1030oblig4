@@ -1,8 +1,7 @@
 ---
 title: "IN1010 Oblig 4: Foranalyse og kravhåndtering"
 author: [Daniel Schneider, Eskil Grinaker Hansen, Oscar Atle Brovold, Fredrik Foss-Indrehus]
-listings: true
----
+...
 
 # IN1010 Oblig 4: Foranalyse og kravhåndtering
 
@@ -55,7 +54,11 @@ En interessent er den som bruker og kan påvirke systemet. For eksempel en indiv
 
 ### A
 
-Forskjellen i plandreven og smidig utvikling ligger i hvordan utviklingen håndterer krav underveis. I smidig utvikling tar man beslutninger underveis, i motsetning til plandreven utvikling hvor man følger en systematisk plan til systemet er ferdig.
+I plandreven utvikling er prosessaktivitetene bestemt på forhånd. Kravhåndteringene skjer i all hovedsak i første fase av prosessen, på grunn av dette blir plandreven utvikling ofte ansett som "for-tung". Det ligger ofte en del utfordinger knyttet til denne formenen for utvikling. Det er vanskeligere å gjøre endringer underveis, og det stiller krav til velskrevne og presise prosjektdokumenter. Selvom plandreven utvikling har endel utfordringer, er denne typen utvikling ofte en nødvenighet i større og mer sikkerhetskritiske prosjekter.
+
+Som en motsetning til plandreven utvikling har vi smidig utvikling. Her er utviklingen inkrementell, og planleggingen skjer litt etter litt. Utviklingen skjer ofte iterativt, og det er rom for at produkte kan mislykkes underveis i utviklingen. Det er også enklere og endre prosessen underveis dersom kunden endrer kravene sine. Det er derfor enklere å ha et tett samarbeid med kunden dersom man følger en smidig utvikling.
+
+Alt i alt ligger hovedforskjellen i hvordan prosessmodellene stiller seg til kravendringer underveis. På grunn av dette blir utviklingen ganske forskjellig. Forskjellene fører videre til at valg av prosessmodell er veldig avhenig av hva slags prosjekt man skal jobbe med.
 
 ### B
 
@@ -67,7 +70,9 @@ Vi må i liten grad ta hensyn til endringer som oppstår underveis. Ønsket syst
 
 ### D
 
-Vi tenker at en plandreven utviklingsprosess er den som egner seg best for dette systemet. Spesielt fossefallsmodellen som består av fem veldefinerte faser. Vi ser ingen grunn til tidligere faser underveis i utviklingen.
+Vi mener en smidig prosessutvikling passer best for prosjektet, og da spesielt kanban. Vi ønkser å ha et tett samarbeid med interessentene. Det er mange interessenter i systemet som kan stille ulike krav til systemet underveis, ved å velge en smidig prosessmodell kan vi derfor ta hensyn til dette. Det virker også fornuftig å kunne teste systemet underveis, slik at systemet fungerer best mulig når det skal gis ut.
+
+Videre har vi sett for oss kanban som en smidig utviklingsmetodikk. Kanban sikrer god utførelse ved at det ikke har tidspress. Vi ønsker også å hindre at problemer akkumulerer seg underveis, kanban sikrer dette ved at alt fokus legges til å løse et kritisk problem dersom det oppstår. Det er også viktig at teamet ikke overbelastet, noe som kan skje i en utviklingsmetodikk som scrum. Kanban er også en oversiktig utviklingsmodell, det er lett å holde kontroll, og når en oppgave er utført velger man den som viktigst der og da.
 
 ## Oppgave 4 - Kravspesifikasjon for bilettsystemet
 
