@@ -5,7 +5,7 @@ author: [Daniel Schneider, Eskil Grinaker Hansen, Oscar Atle Brovold, Fredrik Fo
 
 # IN1010 Oblig 4: Foranalyse og kravhåndtering
 
-**Daniel Schneider, Eskil Grinaker Hansen, Oscar Atle Brovold, Fredrik Foss-Indrehus**
+**Daniel Schneider, Eskil Grinaker Hansen, Oscar Atle Brovold og Fredrik Foss-Indrehus**
 
 ## Oppgave 1 - Bakgrunn for systemet
 
@@ -31,13 +31,17 @@ Vi ville valgt å bruke det eksisterende systemet. Hovedgrunnene for dette er at
 
 ### A
 
-En interessent er den som bruker og kan påvirke systemet. For eksempel en individuell person, gruppe eller organisasjon. En aktør derimot er de som har en direkte påvirkning på systemet, dette kan for eksempel være utviklere.
+Aktører er de som direkte bruker eller interagerer med systemet, eller andre systemer som systemet interagerer med. Aktører er direkte involvert i systemets operasjoner og funksjonalitet. De kan være mennesker (brukere, administratorer) eller andre systemer (databasesystemer, eksterne tjenester).
+
+Interessenter er et bredere begrep som inkluderer alle individer, grupper, institusjoner eller organisasjoner som på en eller annen måte påvirker eller blir påvirket av systemets utvikling, drift eller bare systemet selv. Interessenter inkluderer aktører, men også andre som kan ha en interesse i systemet uten direkte å bruke det (f.eks. aksjeeiere, lovgivere, samfunnet).
+
+Forskjellen ligger i graden av direkte engasjement med systemet. Alle aktører er interessenter fordi deres direkte interaksjon med systemet gir dem en iboende interesse i systemets suksess og funksjonalitet. Imidlertid er ikke alle interessenter aktører, da mange kan ha en interesse i systemet uten direkte å engasjere seg med systemets funksjonalitet eller drift direkte.
 
 ### B
 
 | Navn                | Interesse                 | Ansvarsområde        |
 | ------------------- | ------------------------- | -------------------- |
-| Kunde               | Kino-opplevelse           | Tilbakemelding       |
+| Kunde/bruker        | Kino-opplevelse           | N/A                  |
 | Betalingstjeneste   | Transaksjonsgebyr         | Lage sømløs betaling |
 | Filmskaper          | Få folk på kino           | Promotering          |
 | Utvikler            | Jobb                      | Utvikle systemet     |
@@ -46,6 +50,7 @@ En interessent er den som bruker og kan påvirke systemet. For eksempel en indiv
 
 ### C
 
+* Kunde - Har direkte interaksjon med systemet når hen kjøper billett.
 * Betalingstjeneste - Hvis man ikke har en betalingsløsning ville ikke systemet fungere.
 * Filmskaper - Tilbyr filmer man kan kjøpe billett til.
 * Utvikle - Utvikle systemet.
@@ -72,7 +77,7 @@ Vi må i liten grad ta hensyn til endringer som oppstår underveis. Ønsket syst
 
 Vi mener en smidig prosessutvikling passer best for prosjektet, og da spesielt kanban. Vi ønkser å ha et tett samarbeid med interessentene. Det er mange interessenter i systemet som kan stille ulike krav til systemet underveis, ved å velge en smidig prosessmodell kan vi derfor ta hensyn til dette. Det virker også fornuftig å kunne teste systemet underveis, slik at systemet fungerer best mulig når det skal gis ut.
 
-Videre har vi sett for oss kanban som en smidig utviklingsmetodikk. Kanban sikrer god utførelse ved at det ikke har tidspress. Vi ønsker også å hindre at problemer akkumulerer seg underveis, kanban sikrer dette ved at alt fokus legges til å løse et kritisk problem dersom det oppstår. Det er også viktig at teamet ikke overbelastet, noe som kan skje i en utviklingsmetodikk som scrum. Kanban er også en oversiktig utviklingsmodell, det er lett å holde kontroll, og når en oppgave er utført velger man den som viktigst der og da.
+Videre har vi sett for oss kanban som en smidig utviklingsmetodikk. Kanban sikrer god utførelse ved at det ikke har tidspress. Vi ønsker også å hindre at problemer akkumulerer seg underveis, kanban sikrer dette ved at alt fokus legges til å løse et kritisk problem dersom det oppstår. Det er også viktig at teamet ikke overbelastes, noe som kan skje i en utviklingsmetodikk som scrum. Kanban er også en oversiktig utviklingsmodell, det er lett å holde kontroll, og når en oppgave er fullført og man skal starte på en ny velger man den som er viktigst der og da.
 
 ## Oppgave 4 - Kravspesifikasjon for bilettsystemet
 
@@ -84,6 +89,8 @@ Videre har vi sett for oss kanban som en smidig utviklingsmetodikk. Kanban sikre
 * Som filmskaper ønsker jeg vise frem skuespillere på nettsiden for å øke interessen rundt filmen.
 * Som utvikler ønsker jeg at nettsiden bruker en chatbot for å kunne bruke vår nyeste AI-teknologi.
 * Som utvikler ønsker jeg at systemet har en link til utvikler-selskapet for promotering.
+* Som kunde ønsker jeg å kunne se en oversikt over alle seter og deres status, og hvor i salen og relativt til lærretet de ligger, slik at jeg kan velge setene som passer best for meg eller oss.
+* Som kunde ønsker jeg en å kunne opprette en brukerkonto slik at jeg kan se en oversikt over tidligere kjøp.
 
 ### B
 
@@ -102,6 +109,6 @@ Ikke funksjonelle krav:
 ### C
 
 * 4k kvalitet kan sjekkes ved en oppløsningstest, man kan også gjøre en kompatibilitetstest med ulike enheter.
-* At systemet tilfredstiller kravene for universell utforming kan gjøres ved å gå gjennom en liste over retningslinjene for universell utforming og sørge for at systemet samsvarer med dette. Kravene for universell utforming kan også testes ved brukerundersøkelser.
+* De eksterne kravene, at systemet tilfredstiller kravene for universell utforming, kan testes ved at noen med ekspertise innenfor de ulike temaene kan sjekke disse opp mot regelverket.
 
 De organisatoriske kravene er ubetydelig å teste.
